@@ -1,5 +1,5 @@
 /*
-cl.exe /OUT:"demo.exe" /MANIFEST /NXCOMPAT:NO /-GS /PDB:"Demo.pdb" /DYNAMICBASE:NO "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib" /DEBUG /MACHINE:X86 /INCREMENTAL /PGD:"Demo.pgd" /SUBSYSTEM:CONSOLE /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /ManifestFile:"Debug\Project1.exe.intermediate.manifest" /LTCGOUT:"Debug\Project1.iobj" /ERRORREPORT:PROMPT /ILK:"Debug\Project1.ilk" /NOLOGO /TLBID:1
+cl.exe /OUT:"demo.exe" /MANIFEST /NXCOMPAT:NO /-GS /PDB:"Demo.pdb" /DYNAMICBASE:NO "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib" /DEBUG /MACHINE:X86 /INCREMENTAL /PGD:"Demo.pgd" /SUBSYSTEM:CONSOLE /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /ManifestFile:"Debug\Demo.exe.intermediate.manifest" /LTCGOUT:"Debug\Demo.iobj" /ERRORREPORT:PROMPT /ILK:"Debug\Demo.ilk" /NOLOGO /TLBID:1
 */
 #include "stdio.h"
 unsigned char shellcode[] = "\x50\x53\x51\x52\x56\x57\x55\x89"
