@@ -4,7 +4,7 @@ MSVC: HTTP reverse shell</br>
 GCC: HTTP reverse shell</br>
 Xcode: HTTP reverse shell</br>
 </br>
-# MSVC</br>
+# MSVC(SDK 10.0+, VS 142+)</br>
 * stack</br>
 * stack HW /NXCOMPAT + /DYNAMICBASE</br>
 * stack HW /NXCOMPAT + /DYNAMICBASE</br>
