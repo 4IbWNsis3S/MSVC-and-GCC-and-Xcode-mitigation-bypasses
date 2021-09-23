@@ -30,5 +30,6 @@ Xcode: HTTP reverse shell</br>
 * TODO(should be on par with GCC since they don't port ARM tech to x86)</br>
 * NOTE: Gatekeeper and Xprotect have no stack or heap mitigations but may have HIPS or HIDS that detect exceptions or shellcode</br>
 </br></br></br>
-# NOTE
-This will not teach how to find exploitable memory bugs. That is commonly done with experienced static analysis and fuzzing. Some types of bugs can't be seen by any experienced eye in static analysis, and that along with the the tooling for format and protocol fuzzing is why there aren't many zero-day level security people. Finding bugs in a large code base is a lot harder than learning shellcode development and debugging.
+# NOTES
+* This project will probably finish over time since I do it in my free time and people who understand what is going on likely won't pick up some of the workload
+* This will not teach how to find exploitable memory bugs. That is commonly done with experienced static analysis and fuzzing. Some types of bugs can't be seen by any experienced eye in static analysis, and that along with the the tooling for format and protocol fuzzing is why there aren't many zero-day level security people. Finding bugs in a large code base is a lot harder than learning shellcode development and debugging. In 2021 it's so hard that "black box" fuzzing is basically never used like it was prior to DEP and W^X
