@@ -15,7 +15,7 @@ Xcode: HTTP reverse shell</br>
 * heap (W10 allocator hardening) + HW /NXCOMPAT + /DYNAMICBASE+ CET/CET_SS/guard:cf</br>
 
 </br></br>
-# GCC</br>
+# GCC(11.2+)</br>
 * stack</br>
 * stack -fstack-protector-all + -fstack-clash-protection + -Wl,nxcompat HW</br>
 * stack -fstack-protector-all + -fstack-clash-protection + -Wl,nxcompat HW + -fpie</br>
