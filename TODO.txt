@@ -1,3 +1,5 @@
 1. Document FASM shellcode dev flow for each platform
 
 2. ROP based HTTP C&C that uses POST and polling GET; it will eventually need to work with control-flow mitigation
+
+3. Expierement with shellcode obfuscation
