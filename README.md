@@ -1,4 +1,4 @@
-This is a remake of something I did in the early two-thousands to learn how heap and stack exploit development worked. DEP, ASLR, heap and stack cookies, and shadow stacks now exist and I'm doing it to learn mitigation bypasses across platforms. Windows 10, Debian(5.15+), and macOS Monterey will be the platforms used. The goal is only to get code execution not to break out of sandboxes or get root. I may later do better shellcode.</br>
+This is a remake of something I did in the early two-thousands to learn how heap and stack exploit development worked. DEP, ASLR, heap and stack cookies, and shadow stacks now exist and I'm doing it to learn mitigation bypasses across platforms. Windows 10, Debian(5.15+), and macOS Monterey will be the platforms used. The goal is only to get code execution not to break out of sandboxes or get root. I may later do better shellcode that isn't just HTTP polling for commands.</br>
 # Payloads
 MSVC: HTTP reverse shell</br>
 GCC: HTTP reverse shell</br>
