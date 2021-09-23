@@ -20,10 +20,10 @@ Xcode: HTTP reverse shell</br>
 * stack -fstack-protector-all + -fstack-clash-protection + -Wl,nxcompat</br>
 * stack -fstack-protector-all + -fstack-clash-protection + -Wl,nxcompat + -fpie</br>
 * stack -fstack-protector-all + -fstack-clash-protection + -Wl,nxcompat + -fpie + CET/CET_SS/-fcf-protection=full</br>
-* heap(transparent mitigations)</br>
-* heap -fstack-protector-all + -fstack-clash-protection</br>
-* heap -fstack-protector-all + -fstack-clash-protection + -Wl,nxcompat + -fpie</br>
-* heap -fstack-protector-all + -fstack-clash-protection + -Wl,nxcompat + -fpie + CET/CET_SS/-fcf-protection=full</br>
+* heap (allocator hardening)</br>
+* heap (allocator hardening) + -fstack-protector-all + -fstack-clash-protection</br>
+* heap (allocator hardening) + -fstack-protector-all + -fstack-clash-protection + -Wl,nxcompat + -fpie</br>
+* heap (allocator hardening) + -fstack-protector-all + -fstack-clash-protection + -Wl,nxcompat + -fpie + CET/CET_SS/-fcf-protection=full</br>
 
 </br></br>
 # Xcode</br>
