@@ -29,7 +29,7 @@ Xcode: HTTP reverse shell</br>
 # Xcode</br>
 * TODO</br>
 * NOTE: Gatekeeper and Xprotect have no stack or heap mitigations but may have HIPS or HIDS that detect exception chains or shellcode; on top of what the compiler implements..</br>
-* This will probably come last in a lot of cases because I don't *yet* have modern Apple hardware with features that support things like CET and DEP(I haven't bought apple since they dropped PPC in 2005(M9970 owner)). I'm planning on getting something with a M3 Max for this
+* This will probably come last in a lot of cases because I don't *yet* have modern Apple hardware with features that support things like MTE(because it's ARM) and DEP(I haven't bought apple since they dropped PPC in 2005(M9970 owner)). I'm planning on getting something with a M3 Max for this
 </br></br></br>
 # NOTES
 * This project will probably finish over time since I do it in my free time and people who understand what is going on likely won't pick up some of the workload
