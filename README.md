@@ -8,9 +8,9 @@ Xcode: HTTP reverse shell</br>
 * stack</br>
 * stack HW /NXCOMPAT + /DYNAMICBASE + /HYENTROPYVA + /GS</br>
 * stack HW /NXCOMPAT + /DYNAMICBASE + /HYENTROPYVA + /CETCOMPAT + /GS + /guard:cf</br>
-* heap (W10 allocator hardening)</br>
-* heap (W10 allocator hardening) + HW /NXCOMPAT + /DYNAMICBASE + /HYENTROPYVA + /GS</br>
-* heap (W10 allocator hardening) + HW /NXCOMPAT + /DYNAMICBASE + /HYENTROPYVA + /CETCOMPAT + /GS + /guard:cf</br>
+* heap (W11 allocator hardening)</br>
+* heap (W11 allocator hardening) + HW /NXCOMPAT + /DYNAMICBASE + /HYENTROPYVA + /GS</br>
+* heap (W11 allocator hardening) + HW /NXCOMPAT + /DYNAMICBASE + /HYENTROPYVA + /CETCOMPAT + /GS + /guard:cf</br>
 
 </br></br>
 # GCC(11.2+)</br>
