@@ -6,13 +6,11 @@ Xcode: HTTP reverse shell</br>
 </br>
 # MSVC(SDK 10.0+, VS 142+)</br>
 * stack</br>
-* stack HW /NXCOMPAT + /DYNAMICBASE</br>
-* stack HW /NXCOMPAT + /DYNAMICBASE</br>
-* stack HW /NXCOMPAT + /DYNAMICBASE + CET/CET_SS/guard:cf</br>
+* stack HW /NXCOMPAT + /DYNAMICBASE + /HYENTROPYVA + /GS</br>
+* stack HW /NXCOMPAT + /DYNAMICBASE + /HYENTROPYVA + /CETCOMPAT + /GS + /guard:cf</br>
 * heap (W10 allocator hardening)</br>
-* heap (W10 allocator hardening) + HW /NXCOMPAT + /DYNAMICBASE</br>
-* heap (W10 allocator hardening) + HW /NXCOMPAT + /DYNAMICBASE</br>
-* heap (W10 allocator hardening) + HW /NXCOMPAT + /DYNAMICBASE+ CET/CET_SS/guard:cf</br>
+* heap (W10 allocator hardening) + HW /NXCOMPAT + /DYNAMICBASE + /HYENTROPYVA + /GS</br>
+* heap (W10 allocator hardening) + HW /NXCOMPAT + /DYNAMICBASE + /HYENTROPYVA + /CETCOMPAT + /GS + /guard:cf</br>
 
 </br></br>
 # GCC(11.2+)</br>
